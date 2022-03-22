@@ -158,6 +158,53 @@
                     .s-button:nth-child(3){
                         margin-right: 0.8rem;
                     }
+                    .service-content-wraper{
+                        width: 100%;
+                        padding: 0.4em;
+                        .service-contents{
+                            h2{
+                                text-align: center;
+                                color: $lite-color;
+                            }
+                            p{
+                                text-align: center;
+                                padding-left: 2em;
+                                padding-right: 2em;
+                                color: $lite-color;
+                            }
+                        }
+                        .sitems-wraperbox{
+                            display: flex;
+                            flex-direction: column;
+                            .sitems-boxes{
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-around;
+                                align-content: space-around;
+                                align-items: center;
+                                margin-top: 1rem;
+                                .sitem-box{
+                                    background-color: #ffffff;
+                                    height: 180px;
+                                    width: 180px;
+                                    border-radius: 10px;
+                                    margin-top: 1rem;
+                                    margin-bottom: 1rem;
+                                    margin-left: 0.6rem;
+                                    margin-right: 0.6rem;
+                                }
+                            }
+                            .service-contact-box{
+                                width: 100%;
+                                background-color: #ffffff;
+                                padding: 0.4em;
+                                height: 100px;
+                                margin-top: 2rem;
+                                margin-left: 0.4rem;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -260,8 +307,9 @@
                         }
                         .sitems-wraperbox{
                             display: flex;
+                            flex-direction: column;
                             .sitems-boxes{
-                                width: 68%;
+                                width: 100%;
                                 display: flex;
                                 flex-wrap: wrap;
                                 justify-content: space-around;
@@ -270,8 +318,8 @@
                                 margin-top: 1rem;
                                 .sitem-box{
                                     background-color: #ffffff;
-                                    height: 200px;
-                                    width: 200px;
+                                    height: 128px;
+                                    width: 128px;
                                     border-radius: 10px;
                                     margin-top: 1rem;
                                     margin-bottom: 1rem;
@@ -280,10 +328,10 @@
                                 }
                             }
                             .service-contact-box{
-                                width: 32%;
+                                width: 100%;
                                 background-color: #ffffff;
                                 padding: 0.4em;
-                                height: 430px;
+                                height: 100px;
                                 margin-top: 2rem;
                                 margin-left: 0.4rem;
                             }
