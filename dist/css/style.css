@@ -621,8 +621,8 @@ body header .hwraper .h-box-2 hero-image {
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .service-contents p {
     text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
     color: #ffffff;
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox {
