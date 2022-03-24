@@ -201,7 +201,7 @@
                                 padding: 0.4em;
                                 height: 100px;
                                 margin-top: 2rem;
-                                margin-left: 0.4rem;
+                                margin-left: 0rem;
                             }
                         }
                     }
@@ -308,6 +308,8 @@
                         .sitems-wraperbox{
                             display: flex;
                             flex-direction: column;
+                            justify-content: center;
+                            align-content: center;
                             .sitems-boxes{
                                 width: 100%;
                                 display: flex;
@@ -333,7 +335,7 @@
                                 padding: 0.4em;
                                 height: 100px;
                                 margin-top: 2rem;
-                                margin-left: 0.4rem;
+                                margin-left: 0rem;
                             }
                         }
                     }

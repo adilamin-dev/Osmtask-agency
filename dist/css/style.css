@@ -36,6 +36,10 @@ h1 {
   font-size: 2.8em;
 }
 
+body {
+  background-color: #00192C;
+}
+
 body .section-2 .service-wraper {
   width: 100%;
   position: relative;
@@ -54,7 +58,7 @@ body .section-2 .service-wraper .service-box {
   position: absolute;
   width: 100%;
   min-height: 610px;
-  background-color: #444444;
+  background-color: #1B3659;
   margin: 0 auto;
   top: -60px;
   border-radius: 15px;
@@ -96,7 +100,7 @@ body .section-2 .service-wraper .service-box .s-items .s-button .si-wraper {
 
 body .section-2 .service-wraper .service-box .s-items .sb-active {
   background-color: #ffffff;
-  color: #444444;
+  color: #1B3659;
   font-weight: bold;
 }
 
@@ -115,6 +119,10 @@ body .section-2 .service-wraper .service-box .s-button:nth-child(3) {
 body .section-2 .service-wraper .service-box .service-content-wraper {
   width: 100%;
   padding: 0.4em;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .service-contents {
+  padding-top: 0.8em;
 }
 
 body .section-2 .service-wraper .service-box .service-content-wraper .service-contents h2 {
@@ -381,7 +389,7 @@ body header .hwraper .h-box-2 hero-image {
     position: absolute;
     width: 100%;
     min-height: 610px;
-    background-color: #444444;
+    background-color: #1B3659;
     margin: 0 auto;
     top: -160px;
     border-radius: 15px;
@@ -429,7 +437,7 @@ body header .hwraper .h-box-2 hero-image {
     width: 40px;
     background-color: #ffffff;
     border-radius: 20px;
-    color: #444444;
+    color: #1B3659;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -464,7 +472,7 @@ body header .hwraper .h-box-2 hero-image {
   body .section-2 .service-wraper .service-box .s-items .sb-active {
     border: 2px solid #ffffff;
     background-color: #ffffff;
-    color: #444444;
+    color: #1B3659;
     font-weight: bold;
   }
   body .section-2 .service-wraper .service-box .s-button:nth-child(1) {
@@ -531,7 +539,7 @@ body header .hwraper .h-box-2 hero-image {
     padding: 0.4em;
     height: 100px;
     margin-top: 2rem;
-    margin-left: 0.4rem;
+    margin-left: 0rem;
   }
 }
 
@@ -564,7 +572,7 @@ body header .hwraper .h-box-2 hero-image {
     width: 28px;
     background-color: #ffffff;
     border-radius: 20px;
-    color: #444444;
+    color: #1B3659;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -599,7 +607,7 @@ body header .hwraper .h-box-2 hero-image {
   body .section-2 .service-wraper .service-box .s-items .sb-active {
     border: 2px solid #ffffff;
     background-color: #ffffff;
-    color: #444444;
+    color: #1B3659;
     font-weight: bold;
   }
   body .section-2 .service-wraper .service-box .s-items .s-button:nth-child(1) {
@@ -633,6 +641,11 @@ body header .hwraper .h-box-2 hero-image {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes {
     width: 100%;
@@ -666,7 +679,7 @@ body header .hwraper .h-box-2 hero-image {
     padding: 0.4em;
     height: 100px;
     margin-top: 2rem;
-    margin-left: 0.4rem;
+    margin-left: 0rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
