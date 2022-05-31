@@ -1,5 +1,5 @@
 body{
-    background-color: #00192C;
+    background-color: $lite-color;
     .section-2{
         .service-wraper{
             width: 100%;
@@ -98,6 +98,33 @@ body{
                             height: 394px;
                             margin-top: 2rem;
                             margin-left: 0.4rem;
+                            border-radius: 10px;
+                            .scb-image{
+                                background-color: blue;
+                                height: 338px;
+                                border-radius: 8px 8px 0px 0px;
+                                overflow: hidden;
+                                img{
+                                    height: inherit;
+                                    background-position: center;
+                                }
+                            }
+                            button{
+                                border-radius: 0px 0px 8px 8px;
+                                outline-style: none;
+                                border-style: none;
+                                padding-left: 20px;
+                                padding-top: 12px;
+                                padding-bottom: 12px;
+                                padding-right: 20px;
+                                cursor: pointer;
+                                background: rgb(242,153,74);
+                                background: linear-gradient(90deg, rgba(242,153,74,1) 0%, rgba(235,87,87,1) 100%);
+                                font-size: 1rem;
+                                font-weight: 600;
+                                color: $lite-color;
+                                width: 100%;
+                            }
                         }
                     }
                 }

@@ -197,11 +197,26 @@
                             }
                             .service-contact-box{
                                 width: 100%;
-                                background-color: #ffffff;
+                                background-color: transparent;
                                 padding: 0.4em;
-                                height: 100px;
+                                height: auto;
                                 margin-top: 2rem;
                                 margin-left: 0rem;
+                                border-radius: 10px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                .scb-image{
+                                    display: none;
+                                }
+                                button{
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                    width: 94%;
+                                    margin: 0 auto;
+                                    border-radius: 8px;
+                                }
                             }
                         }
                     }
@@ -331,11 +346,21 @@
                             }
                             .service-contact-box{
                                 width: 100%;
-                                background-color: #ffffff;
+                                background-color: transparent;
                                 padding: 0.4em;
-                                height: 100px;
+                                height: auto;
                                 margin-top: 2rem;
                                 margin-left: 0rem;
+                                .scb-image{
+                                    display: none;
+                                }
+                                button{
+                                    padding-top: 16px;
+                                    padding-bottom: 16px;
+                                    width: 94%;
+                                    margin: 0 auto;
+                                    border-radius: 8px;
+                                }
                             }
                         }
                     }

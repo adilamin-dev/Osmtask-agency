@@ -37,7 +37,7 @@ h1 {
 }
 
 body {
-  background-color: #00192C;
+  background-color: #ffffff;
 }
 
 body .section-2 .service-wraper {
@@ -178,6 +178,37 @@ body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wra
   height: 394px;
   margin-top: 2rem;
   margin-left: 0.4rem;
+  border-radius: 10px;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box .scb-image {
+  background-color: blue;
+  height: 338px;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box .scb-image img {
+  height: inherit;
+  background-position: center;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box button {
+  border-radius: 0px 0px 8px 8px;
+  outline-style: none;
+  border-style: none;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  cursor: pointer;
+  background: #f2994a;
+  background: -webkit-gradient(linear, left top, right top, from(#f2994a), to(#eb5757));
+  background: linear-gradient(90deg, #f2994a 0%, #eb5757 100%);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
 }
 
 body header {
@@ -535,11 +566,35 @@ body header .hwraper .h-box-2 hero-image {
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box {
     width: 100%;
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 0.4em;
-    height: 100px;
+    height: auto;
     margin-top: 2rem;
     margin-left: 0rem;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box .scb-image {
+    display: none;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 8px;
   }
 }
 
@@ -675,11 +730,21 @@ body header .hwraper .h-box-2 hero-image {
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box {
     width: 100%;
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 0.4em;
-    height: 100px;
+    height: auto;
     margin-top: 2rem;
     margin-left: 0rem;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box .scb-image {
+    display: none;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 8px;
   }
 }
 /*# sourceMappingURL=style.css.map */
