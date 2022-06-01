@@ -342,6 +342,30 @@
                                     margin-bottom: 0.6rem;
                                     margin-left: 0.2rem;
                                     margin-right: 0.2rem;
+                                    .sitem-box-image{
+                                        width: 80%;
+                                        height: 80%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        img{
+                                            height: 80px;
+                                            width: 80px;
+                                        }
+                                    }
+                                    .sitem-box-name{
+                                        visibility: visible;
+                                        height: 24%;
+                                        width: inherit;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background: linear-gradient(90deg, rgb(230, 133, 49) 0%, rgba(235,87,87,1) 100%);
+                                        p{
+                                            display: block;
+                                            font-size: 0.9rem;
+                                        }
+                                    }
                                 }
                             }
                             .service-contact-box{

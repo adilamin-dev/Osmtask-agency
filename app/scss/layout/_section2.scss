@@ -80,8 +80,21 @@ body{
                             align-content: space-around;
                             align-items: center;
                             margin-top: 1rem;
+                            .sitem-box-a{
+                                text-decoration: none;
+                            }
+                            .sitem-box-a:visited{
+                                text-decoration: none;
+                            }
+                            .sitem-box-a:link{
+                                text-decoration: none;
+                            }
                             .sitem-box{
-                                background-color: #ffffff;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: $lite-color;
                                 height: 180px;
                                 width: 180px;
                                 border-radius: 10px;
@@ -89,6 +102,48 @@ body{
                                 margin-bottom: 1rem;
                                 margin-left: 0.6rem;
                                 margin-right: 0.6rem;
+                                overflow: hidden;
+                                .sitem-box-image{
+                                    width: 80%;
+                                    height: 80%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    img{
+                                        height: 100px;
+                                        width: 100px;
+                                    }
+                                }
+                                .sitem-box-name{
+                                    visibility: hidden;
+                                    height: 0%;
+                                    width: inherit;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background: linear-gradient(90deg, rgb(230, 133, 49) 0%, rgba(235,87,87,1) 100%);
+                                    p{
+                                        display: block;
+                                    }
+                                }
+                            }
+                            .sitem-box:hover{
+                                transform: scale(1.1);
+                                justify-content: space-between;
+                                transition: all 0.2s ease-in;
+                                .sitem-box-image{
+                                    width: 76%;
+                                    transition: all 0.2s ease-in;
+                                    img{
+                                        height: auto;
+                                        transition: all 0.2s ease-in;
+                                    }
+                                }
+                                .sitem-box-name{
+                                    visibility: visible;
+                                    height: 24%;
+                                    transition: all 0.2s ease-in;
+                                }
                             }
                         }
                         .service-contact-box{

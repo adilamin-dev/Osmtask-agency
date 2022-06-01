@@ -160,7 +160,32 @@ body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wra
   margin-top: 1rem;
 }
 
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box-a {
+  text-decoration: none;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box-a:visited {
+  text-decoration: none;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box-a:link {
+  text-decoration: none;
+}
+
 body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #ffffff;
   height: 180px;
   width: 180px;
@@ -169,6 +194,76 @@ body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wra
   margin-bottom: 1rem;
   margin-left: 0.6rem;
   margin-right: 0.6rem;
+  overflow: hidden;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-image {
+  width: 80%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-image img {
+  height: 100px;
+  width: 100px;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-name {
+  visibility: hidden;
+  height: 0%;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(#e68531), to(#eb5757));
+  background: linear-gradient(90deg, #e68531 0%, #eb5757 100%);
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-name p {
+  display: block;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box:hover .sitem-box-image {
+  width: 76%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box:hover .sitem-box-image img {
+  height: auto;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box:hover .sitem-box-name {
+  visibility: visible;
+  height: 24%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box {
@@ -727,6 +822,43 @@ body header .hwraper .h-box-2 hero-image {
     margin-bottom: 0.6rem;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-image {
+    width: 80%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-image img {
+    height: 80px;
+    width: 80px;
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-name {
+    visibility: visible;
+    height: 24%;
+    width: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: -webkit-gradient(linear, left top, right top, from(#e68531), to(#eb5757));
+    background: linear-gradient(90deg, #e68531 0%, #eb5757 100%);
+  }
+  body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .sitems-boxes .sitem-box .sitem-box-name p {
+    display: block;
+    font-size: 0.9rem;
   }
   body .section-2 .service-wraper .service-box .service-content-wraper .sitems-wraperbox .service-contact-box {
     width: 100%;
