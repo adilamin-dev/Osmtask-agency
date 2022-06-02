@@ -223,15 +223,16 @@
         }
         .section-3{
             .workflow-wraper{
-                
+                width: auto;
+                height: 800px;
+                background-image: url("../../../dist/img/wf-sm.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 .wf-list{
-                    
-                    .wf-li{
-                        
-                        .wf-text-box{
-                            
-                        }
-                    }
+
                     .wf-li:hover{
                         transform: scale(1);
                     }
