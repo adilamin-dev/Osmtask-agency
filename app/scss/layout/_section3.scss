@@ -1,0 +1,88 @@
+.section-3{
+    .workflow-wraper{
+        width: auto;
+        height: 800px;
+        background-image: url("../../../dist/img/wf-sm.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wf-list{
+            height: 100%;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            .wf-li{
+                height: auto;
+                width: 400px;
+                .wf-text-box{
+                    padding: 1.6em;
+                    background-color: $lite-gray;
+                    border-radius: 24px;
+                    box-shadow: 0px 4px 4px #00000018;
+                    .wf-img-box{
+                        display: none;
+                    }
+                }
+            }
+            .wf-li:hover{
+                transform: scale(1.1);
+                transition: all 0.3s ease-in-out
+            }
+            .research-li{
+                position: relative;
+                .research-wf{
+                    position: absolute;
+                    h3{
+                        padding-bottom: 0.6em;
+                    }
+                    transform: translate(76px, -40px);
+                }
+            }
+            .design-li{
+                position: relative;
+                .design-wf{
+                    position: absolute;
+                    h3{
+                        padding-bottom: 0.6em;
+                    }
+                    transform: translate(226px, -56px);
+                }
+            }
+            .development-li{
+                position: relative;
+                .development-wf{
+                    position: absolute;
+                    h3{
+                        padding-bottom: 0.6em;
+                    }
+                    transform: translate(-134px, -72px);
+                }
+            }
+            .project-li{
+                position: relative;
+                .project-wf{
+                    position: absolute;
+                    h3{
+                        padding-bottom: 0.6em;
+                    }
+                    transform: translate(-170px, -90px);
+                }
+            }
+            .client-li{
+                position: relative;
+                .client-wf{
+                    position: absolute;
+                    h3{
+                        padding-bottom: 0.6em;
+                    }
+                    transform: translate(150px, -108px);
+                }
+            }
+        }
+        margin-bottom: 10rem;
+    }
+}
